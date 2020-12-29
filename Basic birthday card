@@ -1,0 +1,29 @@
+fun main() {
+    val name = "John"
+    val age = "12"
+    
+    printBorder()
+    println("Happy Birthday, ${name}!")
+    printBorder()
+
+    println("   ,,,,,   ")
+    println("   |||||   ")
+    println(" =========")
+    println("@@@@@@@@@@@")
+    println("{~@~@~@~@~}")
+    println("@@@@@@@@@@@")
+    
+    println("")
+
+    printBorder()
+    println("You are already ${age}!")
+    println("${age} is the very best age to celebrate!")
+    printBorder()
+}
+
+fun printBorder(){
+    repeat(52){
+        print("=")
+    }
+    println()
+}
