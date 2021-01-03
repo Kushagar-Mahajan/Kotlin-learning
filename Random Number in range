@@ -1,0 +1,5 @@
+fun main() {
+    val dicerange = 1..6 //range for random
+    val randomNumber = dicerange.random() //choosing random number
+    println("Random Number: ${randomNumber}") //printing random number
+}
